@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a2d2df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #f6efbd;
+  padding: 30px; /* Increased padding */
+  border-radius: 15px; /* Softer edges */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Increased width */
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 25px; /* More space */
+  font-size: 28px; /* Increased font size */
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 70%;
+  padding: 12px; /* Increased padding */
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Slightly larger radius */
+  font-size: 16px; /* Larger input text */
+}
+
+button {
+  width: 25%;
+  padding: 12px; /* Larger button padding */
+  border: none;
+  background-color: #bc7c7c;
+  color: white;
+  border-radius: 8px; /* Larger radius for buttons */
+  cursor: pointer;
+  font-size: 16px; /* Larger button text */
+}
+
+button:hover {
+  background-color: #b96363;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f8f9fa;
+  margin-bottom: 12px;
+  padding: 12px; /* Increased padding */
+  border-radius: 8px; /* More rounded corners */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px; /* Increased task text size */
+}
+
+li input[type="text"] {
+  width: 60%;
+  padding: 10px; /* Larger padding */
+  margin-right: 12px; /* More spacing */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px; /* Larger input text */
+}
+
+li div {
+  display: flex;
+  gap: 12px; /* More spacing between buttons */
+}
+
+.edit-btn,
+.delete-btn {
+  border: none;
+  color: white;
+  padding: 8px 20px; /* More padding for larger buttons */
+  min-width: 70px; /* Larger button size */
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px; /* Larger button text */
+}
+
+.edit-btn {
+  background-color: #e4c087; /* Yellow for edit */
+}
+
+.delete-btn {
+  background-color: #da5b67; /* Red for delete */
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Ensure proper sizing for delete button text */
+.delete-btn {
+  padding: 8px 20px;
+  min-width: 85px; /* Increased width to fit text */
+  display: inline-block;
+  text-align: center;
+}
